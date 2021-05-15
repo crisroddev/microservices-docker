@@ -21,4 +21,4 @@ os.listdir(".")
 2. `source venv/bin/activate`
 3. `which python3`
 4. `make install`
-5. 
+5. `make test`
