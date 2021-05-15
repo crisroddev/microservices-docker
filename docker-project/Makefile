@@ -17,4 +17,10 @@ lint:
 	hadolint Dockerfile
 	#pylint --disable=R,C,W1203,DL3013 app.py
 
+validate-circleci:
+	circleci config process .circleci/config.yml
+
+run-cirlce-ci-local:
+	circleci local execute
+
 all: install lint test
