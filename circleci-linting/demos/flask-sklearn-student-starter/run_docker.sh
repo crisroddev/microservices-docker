@@ -5,9 +5,12 @@
 
 # Step 1:
 # Build image
+docker build --tag=demolocal .
 
 # Step 2: 
 # List docker images
+docker ls
 
 # Step 3: 
 # Run flask app
+docker run -it demolocal bash
