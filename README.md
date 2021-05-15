@@ -16,3 +16,9 @@ os.listdir(".")
 ````
 
 
+## My Repo
+1. `python3 -m venv venv`
+2. `source venv/bin/activate`
+3. `which python3`
+4. `make install`
+5. 
